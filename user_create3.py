@@ -198,7 +198,7 @@ wb_new.close()
 
 # подсчёт времени
 time_finish = time.monotonic()
-print('.................закончено за', round(time_finish - time_start, 3), 'секунд')
+print('................закончено за', round(time_finish - time_start, 3), 'секунд')
 
 # закрываю программу
 input('Нажмите ENTER')
